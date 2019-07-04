@@ -1,0 +1,137 @@
+.nav {
+  overflow: auto;
+  background-color: lightpink;
+}
+
+.nav a {
+  float: left;
+  color: indianred;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: silver;
+}
+
+.nav a.active {
+  background-color: oldlace;
+}
+
+.row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem; 
+}
+
+img {
+  max-width: 100%;
+  height: auto; }
+  
+.column,
+.columns {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left; }
+
+*
+{
+  box-sizing: border-box;
+}
+
+  .large-1 {
+    width: 8.33333%; }
+
+  .large-2 {
+    width: 16.66667%; }
+
+  .large-3 {
+    width: 25%; }
+
+  .large-4 {
+    width: 33.33333%; }
+
+  .large-5 {
+    width: 41.66667%; }
+
+  .large-6 {
+    width: 50%; }
+
+  .large-7 {
+    width: 58.33333%; }
+
+  .large-8 {
+    width: 66.66667%; }
+
+  .large-9 {
+    width: 75%; }
+
+  .large-10 {
+    width: 83.33333%; }
+
+  .large-11 {
+    width: 91.66667%; }
+
+  .large-12 {
+    width: 100%; }
+
+  button.alert, .button.alert 
+  {
+    background-color: lightpink;
+    color: indianred; 
+    padding: 7px 10px;
+  }
+    button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus 
+  {
+      background-color: white; 
+  }
+  button.success, .button.success {
+    background-color: #43ac6a;
+    border-color: #368a55;
+    color: white; }
+    button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+      background-color: #368a55; }
+    button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+      color: white; }
+    button.alert, .button.alert {
+    background-color: #f04124;
+    border-color: #cf2a0e;
+    color: white; }
+    button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+      background-color: #cf2a0e; }
+    button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+      color: white; }
+  
+  table {
+  background: white;
+  table-layout: fixed;}
+  table tr th,
+  table tr td {
+    padding: 0.5625rem 0.625rem;
+    font-size: 0.875rem;
+    color: #222222;
+    text-align: left; }
+   table tr:nth-of-type(even) {
+    background: #f9f9f9; }
+
+ol {
+  list-style :none;
+  padding: 0;
+  margin: 0;
+}
+
+.seats {
+  display: flex;
+}
+
+.seat {
+  display: flex;
+  flex: 0 0 14.28571428571429%;
+  padding: 5px;
+}
